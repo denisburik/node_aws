@@ -5,7 +5,7 @@ const app = express();
 app.get('/', (request, response) => {
 	return response.json({
 		message: 'Server is up motherf*ck',
-		description: 'Stefany capacete'
+		description: 'Its not a description...'
 	});
 });
 
